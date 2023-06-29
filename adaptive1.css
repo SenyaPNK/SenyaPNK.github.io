@@ -1,0 +1,491 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .topmenu {
+        background-color: #2E2C2C;
+        display: flex;
+        justify-content: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+
+        box-shadow: 0px 0px 100px 3px rgb(0, 0, 0);
+    }
+
+    .head {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+
+    .logo {
+        margin-right: 120px;
+    }
+
+    .search {
+        display: flex;
+        height: 56px;
+        width: 334px;
+        background-color: #C3C3C3;
+        border-radius: 15px;
+
+    }
+
+    .search div {
+        color: black;
+        margin-left: 23px;
+    }
+
+    .search div input {
+        border: none;
+        background-color: transparent;
+        outline: none;
+        width: 360px;
+    }
+
+    .search a {
+        align-self: center;
+        margin-left: 10px;
+    }
+
+    .anime {
+        display: flex;
+        width: 133px;
+        height: 52px;
+        background: linear-gradient(to right, #383D40, #414345);
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 27px;
+        margin-left: 60px;
+
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 900;
+        margin-left: 23px;
+
+        transition: 0.5s;
+    }
+
+    .anime:hover {
+        transform: scale(0.9);
+    }
+
+    .signup {
+        display: none;
+    }
+
+
+    .btns {
+        align-self: center;
+        display: flex;
+        margin-left: 100px;
+    }
+
+    .btn {
+        width: 33px;
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 47px;
+
+        background: linear-gradient(to right, #383D40, #414345);
+        border-radius: 25px;
+
+
+    }
+
+    .btn:last-child {
+        margin-right: 0px;
+    }
+
+    .btn {
+        transition: 0.5s;
+    }
+
+    .btn:hover {
+        box-shadow: 0px 0px 20px 3px rgba(255, 255, 255, 0.215);
+    }
+
+
+    .btn a {
+        margin-top: 4px;
+    }
+
+
+    .logo img {
+        width: 154.5px;
+        height: 78px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+    .search {
+        display: none;
+    }
+
+    .anime {
+        display: none;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 400px;
+    }
+
+    .logo img {
+        width: 154.5px;
+        height: 78px;
+    }
+
+    .signup {
+        display: flex;
+        width: 153px;
+        height: 62px;
+        background: linear-gradient(to right, #383D40, #414345);
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 27px;
+        margin-left: 60px;
+
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        margin-left: 23px;
+
+        transition: 0.5s;
+    }
+
+    .signup:hover {
+        transform: scale(0.95);
+    }
+
+    .mainpol {
+        width: 770px;
+    }
+
+    .btnss a {
+        margin-right: 80px;
+    }
+
+    .top {
+        margin-top: 150px;
+    }
+
+    .line {
+        border-left: 232px solid #151515;
+        border-right: 232px solid #151515;
+    }
+
+    .img1 {
+        width: 151px;
+        height: 204px;
+    }
+
+    .img2 {
+        width: 151px;
+        height: 204px;
+    }
+
+    .img3 {
+        width: 151px;
+        height: 204px;
+    }
+
+    .img4 {
+        width: 151px;
+        height: 204px;
+    }
+
+    .line1 {
+        border-left: 232px solid #151515;
+        border-right: 232px solid #151515;
+    }
+
+    .cardprof:last-child {
+        display: none;
+    }
+
+    .cardprof:nth-child(2) {
+        margin: 0px;
+    }
+
+    .newonetext {
+        width: 55%;
+    }
+
+    .newtwo {
+        margin-top: 360px;
+    }
+
+    .newtwotext {
+        width: 55%;
+    }
+
+    .news {
+        height: 880px;
+    }
+
+    .line2 {
+        width: 630px;
+    }
+
+    footer {
+        height: 90px;
+    }
+
+    .left a {
+        font-size: 20px;
+    }
+
+    .right {
+        font-size: 20px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .search {
+        display: none;
+    }
+
+    .anime {
+        display: none;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 10em;
+    }
+
+    .head {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .logo img {
+        width: 103px;
+        height: 52px;
+    }
+
+    .signup {
+        display: flex;
+        width: 103px;
+        height: 42px;
+        background: linear-gradient(to right, #383D40, #414345);
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+        border-radius: 27px;
+        margin-left: 60px;
+
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 900;
+        margin-left: 23px;
+
+        transition: 0.5s;
+    }
+
+    .signup:hover {
+        transform: scale(0.95);
+    }
+
+    .mainpol {
+        width: 460px;
+    }
+
+    .top {
+        margin-top: 100px;
+    }
+
+    .zag {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .btnss a {
+        font-size: 15px;
+        margin-right: 40px;
+    }
+
+    .line {
+        border-left: 132px solid #151515;
+        border-right: 132px solid #151515;
+        margin: 30px 40px 30px 40px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .relase a {
+        margin-right: 15px;
+    }
+
+    .img1 {
+        width: 91px;
+        height: 104px;
+        border-radius: 10px;
+    }
+
+    .img1 span {
+        top: 5px;
+        left: 15px;
+        padding: 0px 4px;
+        font-size: 10px;
+    }
+
+    .img2 {
+        width: 91px;
+        height: 104px;
+        border-radius: 10px;
+    }
+
+    .img2 span {
+        top: 5px;
+        left: 15px;
+        padding: 0px 4px;
+        font-size: 10px;
+    }
+
+    .img3 {
+        width: 91px;
+        height: 104px;
+        border-radius: 10px;
+    }
+
+    .img3 span {
+        top: 5px;
+        left: 15px;
+        padding: 0px 4px;
+        font-size: 10px;
+    }
+
+    .img4 {
+        width: 91px;
+        height: 104px;
+        border-radius: 10px;
+    }
+
+    .img4 span {
+        top: 5px;
+        left: 15px;
+        padding: 0px 4px;
+        font-size: 10px;
+    }
+
+    .ticker_wrapper a {
+        padding: 0px 10px;
+    }
+
+    .line1 {
+        border-left: 112px solid #151515;
+        border-right: 112px solid #151515;
+        margin: 30px 40px 30px 40px;
+    }
+
+    .cardprof:nth-child(2) {
+        display: none;
+    }
+
+    .cardprof:nth-child(1) {
+        margin: 0px;
+    }
+
+    .newonetext {
+        width: 50%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .imgnewone {
+        width: 120px;
+        height: 180px;
+    }
+
+    .newtwo {
+        margin-top: 260px;
+    }
+    
+    .newtwotext {
+        width: 40%;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .news {
+        height: 750px;
+    }
+
+    .imgnewtwo {
+        width: 120px;
+        height: 180px;
+    }
+
+    footer {
+        height: 90px;
+    }
+
+    .left a {
+        font-size: 20px;
+    }
+
+    .right {
+        font-size: 20px;
+    }
+
+    .line2 {
+        width: 380px;
+        margin: 30px 40px 30px 40px;
+    }
+
+    footer {
+        height: 80px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .left {
+        top: 0;
+        margin: 0px;
+    }
+
+    .left a {
+        font-size: 12px;
+    }
+
+    .right {
+        display: flex;
+        justify-content: center;
+        top: -40%;
+        margin: 0px;
+        font-size: 15px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {}
+
+/* SMall Phone */
+@media only screen and (max-width: 400px) {}
